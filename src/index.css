@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+/* body{
     background-image: url(\heroimage.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* position: fixed; */
-}
+   
+} */
 
 @media (max-width: 450px) {
     .heroContent{
