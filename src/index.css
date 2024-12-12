@@ -11,9 +11,10 @@
 
 body{
     background-image: url('/images/heroimage.jpeg');
+
     background-size: cover; /* Adjust as needed */
     /* background-position: center; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     margin: 0;
     padding: 0;
 }
