@@ -3,7 +3,7 @@ import React from 'react'
 const Nav = () => {
   return (
    <>
-   <div className="navbar flex justify-between pt-3 pl-5 pr-5  w-[100%] z-10 ">
+   <div className="navbar flex justify-between pt-3 pl-5 pr-5  w-[100%]  ">
    <div className="logo">
       <img src="\logo.png" alt="" 
     className='logo h-[70px]' />
