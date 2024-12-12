@@ -92,8 +92,8 @@
     .navbar{
         /* justify-content: center;
         gap: 30px; */
-        /* padding-left: 5px; */
-        padding-right: 100px;
+        /* padding-left: -40px; */
+        padding-right: 120px;
        }
     .heroImg{
         position: fixed;
