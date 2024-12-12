@@ -2,54 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-image: url(\heroimage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+}
 
 @media (max-width: 450px) {
-    .content{
-      width: 200px;
-  
+    .heroContent{
+        position: relative;
+        left: 5%;
+    
+    }
+
+}
+@media (max-width: 330px) {
+    .heroContent{
+       padding-left: 10%;
+    
     }
     .book{
-      font-size: 40px;
+        font-size: 30px;
     }
     .bet{
-      font-size: 10px;
+        font-size: 5px;
     }
-  }
-  .heroContent{
-    position: fixed;
-    top: 250px;
-   }
-   .social{
-    gap: 60px;
+    .content{
+        width: 200px;
+    }
+
 }
  
 
 @media (max-width: 740px) {
-    .social{
-        gap: 50px;
+    .content{
+        width: 400px;
     }
-  .content{
-    width: 500px;
-
-  }
-  .heroContent{
-   position: fixed;
-   top: 250px;
-  }
-  .book{
-    font-size: 40px;
-  }
-  .bet{
-    font-size: 30px;
-  }
+    .book{
+        font-size: 40px;
+    }
+    .bet{
+        font-size: 20px;
+    }
+ 
 }
 
-@media (min-width: 750px){
-  
-    /* .heroContent{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-       } */
-}
 

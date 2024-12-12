@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from './components/Hero'
+
 import Nav from './components/Nav'
 import HeroContent from './components/HeroContent'
 
@@ -8,7 +8,7 @@ const App = () => {
     <>
     <Nav/>
     <HeroContent/>
-    <Hero/>
+   
     </>
   )
 }
