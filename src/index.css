@@ -89,6 +89,12 @@
 }
 
 @media (max-width: 470px) {
+    .navbar{
+        /* justify-content: center;
+        gap: 30px; */
+        /* padding-left: 5px; */
+        padding-right: 100px;
+       }
     .heroImg{
         position: fixed;
     }
@@ -121,6 +127,7 @@
 }
 
 @media (max-width: 330px) {
+   
     .heroContent {
         margin-top: 150px;
         padding-left: 20px;
