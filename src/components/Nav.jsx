@@ -9,9 +9,9 @@ const Nav = () => {
         </div>
         <ul className="social flex items-center space-x-6">
           <li>
-            <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2">
+            <a href="https://wa.me/9708902003" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2">
               <img src="/icons8-whatsapp-100.png" alt="WhatsApp" className="h-8" />
-              <span className=" font-bold">9708902003</span>
+              <span className=" font-bold">Whatsapp</span>
             </a>
           </li>
           <li>
