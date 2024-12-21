@@ -2,150 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body{
-    background-image: url(\heroimage.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
    
-} */
+  }
+  
+  .App {
+    text-align: center;
+  }
 
-
-
-/* @media (max-width: 450px) {
-    .heroContent{
-        position: relative;
-        left: 5%;
-    
-    }
-
-}
-@media (max-width: 330px) {
-    .heroContent{
-       padding-left: 10%;
-    
-    }
-    .book{
-        font-size: 30px;
-    }
-    .bet{
-        font-size: 15px;
-    }
-    .content{
-        width: 200px;
-    }
-    .social{
-        gap: 10px;
-        width: 55%;
-    }
-
-}
- 
-
-@media (max-width: 740px) {
-    .content{
-        width: 400px;
-    }
-    .book{
-        font-size: 40px;
-    }
-    .bet{
-        font-size: 20px;
-    }
- 
-}
-
- */
- @media (max-width: 1024px) {
-    .content {
-        width: 600px;
-    }
-
-    .book {
-        font-size: 45px;
-    }
-
-    .bet {
-        font-size: 30px;
-    }
-
-    .social li {
-        gap: 10px;
-    }
-}
-
-@media (max-width: 768px) {
-    .content {
-        width: 500px;
-        padding: 15px;
-    }
-
-    .book {
-        font-size: 40px;
-    }
-
-    .bet {
-        font-size: 25px;
-    }
-}
-
-@media (max-width: 470px) {
+  @media (max-width: 470px) {
     .navbar{
-        /* justify-content: center;
-        gap: 30px; */
-        /* padding-left: -40px; */
-        padding-right: 120px;
-       }
-    .heroImg{
-        position: fixed;
+      gap: 10px;
+      font-size: medium;
+      padding-left: 3px;
     }
-    .heroContent {
-        margin-top: 150px;
-        padding-left: 20px;
+    .contacts{
+      gap: 5px;
     }
 
-    .content {
-        width: 350px;
-        padding: 10px;
-    }
+  }
 
-    .book {
-        font-size: 30px;
-    }
-
-    .bet {
-        font-size: 20px;
-    }
-
-    .social {
-        gap: 8px;
-       
-    }
-
-    .social li a {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 330px) {
-   
-    .heroContent {
-        margin-top: 150px;
-        padding-left: 20px;
-    }
-    .content {
-        width: 250px;
-        padding: 8px;
-    }
-
-    .book {
-        font-size: 25px;
-    }
-
-    .bet {
-        font-size: 18px;
-    }
-
-    .social li a {
-        font-size: 12px;
-    }
-}
+  

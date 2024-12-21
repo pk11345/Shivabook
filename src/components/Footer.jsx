@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
-    <>
-      <div className="footer flex justify-center items-center gap-5 mt-10 fixed bottom-0 w-full bg-black  p-4">
-        <img src="/logo.png" alt="Shivabook Logo" className="h-20" />
-        <h1 className='text-white text-2xl font-semibold'>Trusted,Safe and Secure Betting Platform</h1>
+    <footer className="bg-gray-900 text-white py-6">
+      <div className="flex flex-col items-center">
+        <div className="text-xl font-bold mb-2">ShivaBook</div>
+        <p className="text-sm text-gray-400">© 2014 ShivaBook. All rights reserved.</p>
       </div>
-    </>
+    </footer>
   );
 };
 
