@@ -3,7 +3,9 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav className="navbar flex justify-between items-center bg-gray-900 text-white px-6 py-4">
-      <div className="Shivabook text-xl font-bold">ShivaBook</div>
+      <div className="Shivabook flex items-center gap-2 text-xl font-bold">ShivaBook
+        <img className="logo h-[50px]" src="\logo.png" alt="" />
+      </div>
       <ul className="contacts flex gap-4">
         <li>
           <a

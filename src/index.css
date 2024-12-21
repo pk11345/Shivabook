@@ -19,6 +19,9 @@ body {
       font-size: medium;
       padding-left: 3px;
     }
+    .logo{
+      display: none;
+    }
     .contacts{
       gap: 5px;
     }
