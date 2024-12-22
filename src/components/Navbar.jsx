@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Navbar = () => {
   return (
@@ -6,7 +7,7 @@ const Navbar = () => {
       <div className="Shivabook flex items-center gap-2 text-xl font-bold">ShivaBook
         <img className="logo h-[50px]" src="\logo.png" alt="" />
       </div>
-      <ul className="contacts flex gap-4">
+      {/* <ul className="contacts flex gap-4">
         <li>
           <a
             href="https://wa.me/9708902003"
@@ -37,7 +38,8 @@ const Navbar = () => {
             Telegram
           </a>
         </li>
-      </ul>
+      </ul> */}
+      {<Button/>}
     </nav>
   );
 };
