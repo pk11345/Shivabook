@@ -1,5 +1,7 @@
 import React from "react";
-import Button from "./Button";
+
+import SocialBtn from "./SocialBtn";
+
 
 const Navbar = () => {
   return (
@@ -39,7 +41,8 @@ const Navbar = () => {
           </a>
         </li>
       </ul> */}
-      {<Button/>}
+    
+      {<SocialBtn/>}
     </nav>
   );
 };

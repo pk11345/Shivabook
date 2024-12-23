@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Button = () => {
+const SocialBtn = () => {
   return (
     <StyledWrapper>
       <div className="main">
@@ -228,4 +228,4 @@ const StyledWrapper = styled.div`
     z-index: 3;
   }`;
 
-export default Button;
+export default SocialBtn;

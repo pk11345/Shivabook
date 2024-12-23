@@ -5,6 +5,7 @@ import InfoSection from './components/InfoSection'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 import ImageCarousel from './components/ImageCarousel'
+import Home from './components/Home'
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
   <>
     <div className="App bg-black h-full text-white"
      >
+       <Home/>
       <Navbar />
       <Hero />
       <ImageCarousel/>
