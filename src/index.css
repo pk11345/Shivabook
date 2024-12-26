@@ -15,7 +15,7 @@ body {
 
   @media (max-width: 470px) {
     .navbar{
-      gap: 10px;
+      gap: 7px;
       font-size: medium;
       padding-left: 3px;
     }
@@ -23,7 +23,10 @@ body {
       display: none;
     }
     .contacts{
-      gap: 5px;
+      gap: 2px;
+    }
+    .Shivabook{
+      font-size: 15px;
     }
 
   }
